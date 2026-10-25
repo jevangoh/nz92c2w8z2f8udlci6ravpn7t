@@ -1,1 +1,5 @@
-nz92c2w8z2f8udlci6ravpn7t: bool = False
+from typing import Optional
+
+from sqlalchemy import Engine
+
+nz92c2w8z2f8udlci6ravpn7t: Optional[Engine] = None
